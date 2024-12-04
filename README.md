@@ -16,7 +16,7 @@ Como Rodar o Projeto
 1. Clonar o Repositório
 Primeiro, clone o repositório para sua máquina local:
 
-git clone https://github.com/seu-usuario/scraper-email.git
+git clone https://github.com/lettreaelise/atividade-email-scrap
 cd (pasta)
 
 2. Instalar Dependências
