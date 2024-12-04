@@ -17,7 +17,7 @@ Como Rodar o Projeto
 Primeiro, clone o repositório para sua máquina local:
 
 git clone https://github.com/seu-usuario/scraper-email.git
-cd scraper-email
+cd (pasta)
 
 2. Instalar Dependências
 Instale as dependências necessárias:
