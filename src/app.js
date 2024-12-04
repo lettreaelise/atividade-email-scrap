@@ -2,15 +2,15 @@ const { scrapeData } = require('./services/scraperService');
 const { sendEmail } = require('./services/emailService');
 
 const main = async () => {
-  const url = 'https://www.amazon.com.br/s?k=eletrônicos'; // URL de exemplo
+  const url = 'https://www.amazon.com.br/s?k=eletrônicos';
   
   try {
-    const data = await scrapeData(url); // Coleta os dados
-    await sendEmail(data); // Envia os dados por e-mail
+    const data = await scrapeData(url);
+    await sendEmail(data);
     console.log('Email enviado com sucesso!');
   } catch (error) {
     console.error('Erro no processo:', error.message);
   }
 };
 
-main(); // Chama a função principal
+main();
